@@ -19,7 +19,18 @@ function createEmployeeRecords(array){
     return newArr
 }
 
-function createTimeInEvent(){
+function createTimeInEvent(hrs, dates){
+
+  time =[
+
+    {
+      type: "TimeIn",
+      hour: "hrs",
+      date: "dates"
+    }
+
+  ]
+  return time
 
 }
 
@@ -40,5 +51,5 @@ function allWagesFor(){
 
 }
 function calculatePayroll(){
-  
+
 }
